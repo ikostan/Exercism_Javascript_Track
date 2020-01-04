@@ -52,6 +52,39 @@ exercism submit /PATH/TO/SOLUTION
 
 * In your web-browser, go back to the language tracks page, choose your exercise and the exercise you've just worked on. You will now see your solution online and notice that it is awaiting a mentor.<br/>
 
+
+## Environment setup
+
+### Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+```bash
+node -v
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+```bash
+npm -v
+```
+
+### Install yarn tool
+
+```bash
+npm install yarn -g
+```
+
+More info about yarn see [here](https://yarnpkg.com/en/)
+
+### Quickes & easiest way to set up babel
+
+```bash
+yarn add @babel/cli @babel/core @babel/node @babel/preset-env
+```
+
+More info about Babel see [here](https://babeljs.io/)
+
 ### How to delete multiples files in Git
 
 * In the command-line, navigate to your local repository.
