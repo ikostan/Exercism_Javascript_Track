@@ -55,7 +55,7 @@ exercism submit /PATH/TO/SOLUTION
 
 ## Environment setup
 
-### Check that you have node and npm installed
+Check that you have node and npm installed.
 
 To check if you have Node.js installed, run this command in your terminal:
 
@@ -84,6 +84,18 @@ yarn add @babel/cli @babel/core @babel/node @babel/preset-env
 ```
 
 More info about Babel see [here](https://babeljs.io/)
+
+### How to run tests
+
+This runs an arbitrary command from a package’s "scripts" object. If no "command" is provided, it will list the available scripts. run[-script] is used by the test, start, restart, and stop commands, but can be called directly, as well. When the scripts in the package are printed out, they’re separated into lifecycle (test, start, restart) and directly-run scripts.
+
+As of npm@2.0.0, you can use custom arguments when executing scripts. The special option -- is used by getopt to delimit the end of the options. npm will pass all the arguments after the -- directly to your script:
+
+```bash
+npm run test
+```
+
+[Source](https://docs.npmjs.com/cli/run-script)
 
 ### How to delete multiples files in Git
 
