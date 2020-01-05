@@ -27,6 +27,7 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
+      - run: curl -o- -L https://yarnpkg.com/install.sh | bash
       - run: yarn add @babel/cli @babel/core @babel/node @babel/preset-env
 
       # run tests!
