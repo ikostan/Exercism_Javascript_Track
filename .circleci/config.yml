@@ -14,9 +14,10 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/mongo:3.4.4
 
-    working_directory: ~/
+    working_directory: ~/Exercism_Javascript_Track/
 
     steps:
 
       # run tests!
       - run: pwd && ls
+      - run: checkout && ls
