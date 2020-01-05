@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/ikostan/Exercism_Javascript_Track.svg?style=svg)](https://circleci.com/gh/ikostan/Exercism_Javascript_Track)
 # [Exercism Javascript Track](https://exercism.io/my/tracks/javascript)
 
 <div align="center"> 
