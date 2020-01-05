@@ -2,6 +2,7 @@
 
 <div align="center"> 
 <img width="10%" height="10%" src="https://github.com/ikostan/Exercism_Python_Track/blob/master/img/exercism-logo.png" hspace="20">
+<img width="10%" height="10%" src="https://github.com/ikostan/Exercism_Javascript_Track/blob/master/img/js_logo.svg">
 </div>
 
 ## Exercism exercises in CSharp
