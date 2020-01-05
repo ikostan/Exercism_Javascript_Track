@@ -17,8 +17,7 @@ jobs:
     working_directory: ~/Exercism_Javascript_Track/
 
     steps:
+      - checkout
 
       # run tests!
       - run: pwd && ls
-      checkout
-      - run: ls
