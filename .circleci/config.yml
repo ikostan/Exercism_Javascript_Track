@@ -23,12 +23,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
             - yarn-packages-{{ checksum "yarn.lock" }}
 
       - run: npm install
-      - run: curl -o- -L https://yarnpkg.com/install.sh | bash
+      # - run: curl -o- -L https://yarnpkg.com/install.sh | bash
 
       # run tests!
-      - run: yarn add @babel/cli @babel/core @babel/node @babel/preset-env && npm run test
+      - run: npm test
