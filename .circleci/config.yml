@@ -27,6 +27,7 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
+      - run: npm add @babel/cli @babel/core @babel/node @babel/preset-env
 
       # run tests!
       - run: npm run test
