@@ -26,11 +26,9 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
             - yarn-packages-{{ checksum "yarn.lock" }}
-            
+
       - run: npm install
       - run: curl -o- -L https://yarnpkg.com/install.sh | bash
-      - run: 
-          command: yarn add @babel/cli @babel/core @babel/node @babel/preset-env
 
       # run tests!
-      - run: npm run test
+      - run: yarn add @babel/cli @babel/core @babel/node @babel/preset-env && npm run test
