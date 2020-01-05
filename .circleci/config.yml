@@ -20,4 +20,5 @@ jobs:
 
       # run tests!
       - run: pwd && ls
-      - run: checkout && ls
+      checkout
+      - run: ls
