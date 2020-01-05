@@ -19,13 +19,5 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            - yarn-packages-{{ checksum "yarn.lock" }}
-
-      # - run: curl -o- -L https://yarnpkg.com/install.sh | bash
-
       # run tests!
-      - run: npm install && npm test
+      - run: pwd && npm install && npm test
