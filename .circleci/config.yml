@@ -20,4 +20,4 @@ jobs:
       - checkout
 
       # run tests!
-      - run: pwd && ls
+      - run: pwd && ls && npm test
