@@ -5,7 +5,7 @@
 <img width="10%" height="10%" src="https://github.com/ikostan/Exercism_Javascript_Track/blob/master/img/js_logo.svg">
 </div>
 
-## Exercism exercises in CSharp
+## Exercism exercises in JavaScript
 
 ### About Exercism
 
