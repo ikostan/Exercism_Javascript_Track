@@ -19,4 +19,4 @@ jobs:
     steps:
 
       # run tests!
-      - run: pwd
+      - run: pwd && ls
