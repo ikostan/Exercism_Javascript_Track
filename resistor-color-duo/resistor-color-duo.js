@@ -10,7 +10,7 @@ export const decodedValue = (colors) => {
     total = total + COLORS.indexOf(colors[i].toLowerCase()).toString();
   };
 
-  return parseInt(total);
+  return Number(total);
 };
 
 export const COLORS = [
