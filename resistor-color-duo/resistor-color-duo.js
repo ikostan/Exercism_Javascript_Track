@@ -4,9 +4,9 @@
 //
 
 export const decodedValue = (colors) => {
-  var total = '';
+  let total = '';
 
-  for (var i = 0; i < colors.length && i < 2; i++){
+  for (let i = 0; i < colors.length && i < 2; i++){
     total = total + COLORS.indexOf(colors[i].toLowerCase()).toString();
   };
 
